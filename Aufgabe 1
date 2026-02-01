@@ -1,2 +1,26 @@
-Aufgabe 1
+# Aufgabe 1
 Charlotte Scholz und Hanna Engnath
+
+Extrahiert aus dem Namen eine Variable mit der Anrede der Person, d.h.
+„Mr.“, „Mrs.“, „Mse.“ usw., damit später fehlende Werte im Alter ersetzt
+werden können. Beachtet hierbei, dass gewisse Anreden wie „Ms.“, „Miss.“
+oder „Mlle“ inhaltlich gleichbedeutend sind (in diesem Beispiel eine junge,
+unverheiratete Frau). Die Anrede „Master“ bezeichnet einen kleinen Jungen.
+
+Codiert die Variablen „Survived“, „Sex“, „Embarked“ als factor um.
+
+Überführt die Variable „Pclass“ in einen ordered-factor.
+
+Imputiert fehlende Werte in der Variable „Age“ mithilfe der erzeugten
+Variable „Anrede“ über ein Imputationsverfahren eurer Wahl (z.B.
+arithmetisches Mittel, Median, usw.)
+
+Extrahiert aus der Variable „Cabin“ die folgenden Informationen und erzeugt
+neue Variablen hierfür:
+§ Backbord oder Steuerbord? Tipp: Kabinen mit einer ungeraden
+Nummer liegen auf Steuerbord, die anderen auf Backbord.
+§ Deck: Vorangehender Buchstabe der Kabinennummer
+§ Einträge mit unbekannter Kabinennummer, d.h. „“ setzt ihr auf NA.
+
+Entfernt am Ende die Variablen „PassengerID“, „Name“, „Ticket“ und „Cabin“
+aus dem Datensatz
